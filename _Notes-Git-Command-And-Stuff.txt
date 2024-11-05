@@ -76,10 +76,17 @@ repository:
       echo "# my-first-react-project-" >> README.md
       git init
       git add README.md
-      git commit -m "first commit"
+      git commit -m "Initial commit"
       git branch -M main
-      git remote add origin https://github.com/ctagayun/my-devops-git-chrome-notes.git
+      git remote add origin https://github.com/ctagayun/chitoreactdev.git
       git push -u origin main
+
+    …or push an existing repository from the command line
+      git remote add origin https://github.com/ctagayun/chitoreactdev.git
+      git branch -M main
+      git push -u origin main
+
+      
 
 3. How would you get your changes from a local repository to the remote repository? There are three 
 essential commands: add, commit, push.
