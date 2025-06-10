@@ -1,0 +1,68 @@
+
+   
+
+1. In github menu click "Pull requests" 
+      
+      Reference: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+
+      - go to github and navigate to the origin/main in this case the name of my 
+        my project is the-road-to-next-app-pro-main
+
+      - Click "Pull Request" in the main menu bar --> and click "New pull request" button
+        located in upper right corner of the pull request page.
+        A pull request is a proposal to merge a set of changes from one branch into another.
+
+        Note: 
+           You can create pull requests on GitHub.com, with GitHub Desktop, in GitHub Codespaces, on GitHub Mobile, 
+           and when using GitHub CLI.
+       
+       - From Pull request page: 
+          - under "base" textbox, select base target or the object you want to merge your code into. In this case "main"
+          - under "compare" textbox, select "2025-06_solution_autosignin_and_new_changepassword" branch
+
+      - After initializing a pull request, you'll see a review page that shows a high-level overview of the changes 
+      between your branch (the compare branch) and the repository's base branch. You can add a summary of the 
+      proposed changes, review the changes made by commits, add labels, milestones, and assignees, 
+      and @mention individual contributors or teams.  
+
+      - Compare changes. Compare changes across branches, commits, tags, and more below. If you need to, you can also .
+      compare across forks.   
+
+         Example of comparisons: 
+              the-road-to-next-app-pro-main is the base branch in this case
+              
+              "2025-06_solution_autosignin_and_new_changepassword" branch ( my branch is the compare branch)
+
+      - finally click "Create Pull" Requests         
+
+      - Next "Open a pull request page" is displayed:
+            When you create a pull request, you can choose to create a pull request that is:
+               1. ready for review or 
+               2.  a draft pull request. 
+               
+            - in this page you can "Add a Title" and "Add a Description"
+
+            - on the right column:
+                1.  Click "assignees" you can assign 1 to 10 people. You can type or choose 
+            a user. In this case choose one or more of the suggested assignees. In this case 
+            only me is showing up. So select by double-clicking ctagayun Domingo
+              
+                2. Click "Labels" and select and apply labels appropriate to this PR. In this 
+            case I select "Enhancements".    
+
+                3. Click "Projects" and select project name if any.
+
+                4. Click "milestone" and select milestone if any.
+
+ 
+                5. Click "Closing Keywords" in the description to automatically close issues. See link below:
+                   https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
+
+
+                  Linking a pull request to an issue
+                        You can link a pull request or branch to an issue to show that a fix is in progress and to 
+                   automatically close the issue when the pull request or branch is merged.
+
+                  see: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
+
+ 

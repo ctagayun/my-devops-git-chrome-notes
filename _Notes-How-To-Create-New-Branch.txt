@@ -1,0 +1,68 @@
+
+Link Branching Stuff: https://github.com/copilot/c/7ef28269-9459-4eef-9ce8-ea185a65079f
+
+
+
+1. From windows terminal 
+    cd C:\_AMyReactPro\the-road-to-next-app-pro-main
+
+    To create a new branch: 
+       - git checkout -b new-branch-name main
+         This creates a new branch called "new-branch-name" and 
+         switches you to the this new branch.
+
+       - alternatively git checkout -b branch-name origin/branch-name
+         then do git switch branch-name
+
+     To push the new branch to GitHub, use      
+
+       git push -u origin new-branch-name
+
+       Output:
+           Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+            remote:
+            remote: Create a pull request for 'new-branch-name' on GitHub by visiting:
+            remote:      https://github.com/ctagayun/the-road-to-next-app-pro-main/pull/new/new-branch-name
+            remote:
+            To https://github.com/ctagayun/the-road-to-next-app-pro-main.git
+            * [new branch]      new-branch-name -> new-branch-name
+            branch 'new-branch-name' set up to track 'origin/new-branch-name'.
+
+  2.  Alternatively, on GitHub.com:
+
+        Go to the repository page (the-road-to-next-app-pro-main).
+        Click the Branch: main dropdown near the top left.
+        Type your new branch name into the field.
+        Click Create branch: new-branch-name from 'main'.
+
+  3. To Delete a branch: 
+      
+      To delete a branch on GitHub, you have two main options: using the GitHub web interface
+      or using Git commands.
+
+        Deleting a Branch via GitHub Web Interface:
+           Go to your repository on GitHub.
+           Click on the "Branches" tab (usually found above the file list or under "Code").
+           Find the branch you want to delete (not the default branch, e.g., not main/master).
+           Click the trash can icon (🗑️) next to the branch name to delete it.
+
+
+        Deleting a Branch via Git Command Line:
+           Open your terminal or command prompt.
+
+           First delete a branch locally:
+
+           git branch -d new-branch-name
+             Use -D instead of -d if you want to force delete (e.g., git branch -D branch-name).
+
+           Next delete a branch on remote (e.g., GitHub):
+           git push origin --delete branch-name
+
+        Note:
+
+        You cannot delete the branch you are currently checked out to; switch to another branch first.
+        Deleting a branch is irreversible, so make sure you don’t need it anymore.
+
+   4. To modify a branch in Git (and on Github) 
+
+      -  git checkout branch-name

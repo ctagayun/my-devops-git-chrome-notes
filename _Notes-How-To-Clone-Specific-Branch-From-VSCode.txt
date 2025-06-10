@@ -1,0 +1,19 @@
+To clone a specific branch from a GitHub repository using Visual Studio Code (VS Code), follow these steps:
+
+Open Visual Studio Code.
+Open the Command Palette: Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (macOS).
+Type and select Git: Clone.
+Enter the repository URL (e.g., https://github.com/owner/repo.git) and press Enter.
+
+Create a choose a local folder where you want to clone the repository.
+  md 
+
+By default, Git clones the repository and checks out the default branch (usually main or master). To switch to a specific branch:
+
+Open the Source Control panel (icon on the Activity Bar or Ctrl+Shift+G).
+Click on the branch name in the Status Bar (bottom left) to see available branches.
+Select the branch you want to switch to. If it’s a remote branch you haven’t checked out locally yet, click on “+ Create new branch...” and select the remote branch.
+
+
+
+
