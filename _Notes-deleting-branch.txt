@@ -1,0 +1,12 @@
+
+To delete a branch in your GitHub repository, you have two main options:
+
+1. Delete the branch from the GitHub web interface:
+
+2. Delete the branch using Git from the command line:
+
+    Make sure you have pushed all your work and that the branch is not the default branch (e.g., not main).
+
+    Run the following command to delete the branch remotely:
+   
+    git push origin --delete 2025-06_Solution_email_section_challenges
