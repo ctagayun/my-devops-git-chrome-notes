@@ -37,7 +37,7 @@
 
       - Next "Open a pull request page" is displayed:
             When you create a pull request, you can choose to create a pull request that is:
-               1. ready for review or 
+               1. ready for review or
                2.  a draft pull request. 
                
             - in this page you can "Add a Title" and "Add a Description"
@@ -65,4 +65,22 @@
 
                   see: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
 
- 
+
+                    ![alt text](<Manually linking a pull request or branch to an issue-2.jpg>)
+                    ![alt text](<Manually linking a pull request to an issue-1.jpg>)
+
+                6. Finally click "Create Pull Request" 
+
+                     - "Merge Page" is displayed
+
+                     - click "Reviewers" on the right column. You can request up to 15 reviewers. 
+
+                     - click "Still in Progress" - here if you decide you can convert it to draft.
+
+
+                     - when ready click "Merge Pull Request" dropdown:
+                        select "Create a merge commit" 
+                        selec "Confirm  merge" 
+
+                        Pull request successfully merged and closed message is displayed.
+                        You can delete branch if you want. In my case I'll keep it.
